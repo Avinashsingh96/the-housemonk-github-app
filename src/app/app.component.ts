@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  constructor(){
+    // setTimeout(()=>{
+    //     this.title="change title after 1000ms"
+    // },1000)
+  }
 }
