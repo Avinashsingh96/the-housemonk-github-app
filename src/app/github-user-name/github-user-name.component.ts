@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-github-user-name',
@@ -29,7 +30,7 @@ export class GithubUserNameComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor(private route: ActivatedRoute,) { }
 
   ngOnInit(): void {
   }
