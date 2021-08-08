@@ -9,37 +9,37 @@ export class GitHubProfileComponent implements OnInit {
   public userData = [
     {
       id: 1,
-      user: 'User Name',
+      user: 'Avinash',
       discription:
         ' With supporting text below as a natural lead-in to additional content.',
     },
     {
       id: 2,
-      user: 'User Name',
+      user: 'Abhishek',
       discription:
         ' With supporting text below as a natural lead-in to additional content.',
     },
     {
       id: 3,
-      user: 'User Name',
+      user: 'Akash',
       discription:
         ' With supporting text below as a natural lead-in to additional content.',
     },
     {
       id: 4,
-      user: 'User Name',
+      user: 'Munish',
       discription:
         ' With supporting text below as a natural lead-in to additional content.',
     },
     {
       id: 5,
-      user: 'User Name',
+      user: 'The house monk',
       discription:
         ' With supporting text below as a natural lead-in to additional content.',
     },
     {
       id: 6,
-      user: 'User Name',
+      user: 'Jibin',
       discription:
         ' With supporting text below as a natural lead-in to additional content.',
     },

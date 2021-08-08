@@ -9,17 +9,17 @@ export class GithubUserNameComponent implements OnInit {
   public gituserNameData=[
     {
     id:1,
-    username:"username/reponame",
+    username:"Avinash/reponame",
     discription:"discription about repositary"
   },
   {
     id:2,
-    username:"username/reponame",
+    username:"Akash/reponame",
     discription:"discription about repositary"
   },
   {
     id:3,
-    username:"username/reponame",
+    username:"Ajay/reponame",
     discription:"discription about repositary"
   }
 
