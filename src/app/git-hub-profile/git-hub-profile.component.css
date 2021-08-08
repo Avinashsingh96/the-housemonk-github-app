@@ -1,0 +1,88 @@
+.githubtext {
+  margin-left: 10px;
+}
+
+.navbar-light {
+  box-shadow: 1px 1px 1px grey;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  background-color: rgb(13, 148, 233);
+  color: white;
+}
+.form-control::placeholder {
+  color: white;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: white;
+}
+/* .fa-user {
+  background-color: lightskyblue;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.5em;
+} */
+
+@media (max-width: 575.98px) {
+  .header {
+    height: 150px;
+  }
+  .main {
+    margin-top: 20px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header {
+    height: 150px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    height: 150px;
+  }
+  .main {
+    width: 75%;
+    margin-top: 20px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header {
+    height: 120px;
+  }
+  .main {
+    width: 100%;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    height: 100px;
+  }
+  .main {
+    width: 88%;
+  }
+  .row {
+    margin: 8px 0px;
+  }
+}
